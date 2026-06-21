@@ -1,0 +1,6 @@
+name = input()
+n = int(input())
+print(f'Группа №{n // 100}.')
+print(f'{n % 10}. {name}.')
+print(f'Шкафчик: {n}.')
+print(f'Кроватка: {n // 10 % 10}.')
